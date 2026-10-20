@@ -1,0 +1,64 @@
+Attached Element Context from Integrated Browser
+
+Element: span.feature-copy
+
+URL: file:///e%3A/Web%20design%201/Project%202/index.html#home
+
+HTML Path: main > section#home.hero > div.hero-notes > button.feature.feature-one > span.feature-copy
+
+Outer HTML:
+```html
+<span class="feature-copy">Timeless design<br>with advanced<br>functions</span>
+```
+
+Dimensions:
+- top: 381px
+- left: 112px
+- width: 119px
+- height: 58px
+
+CSS:
+```css
+* { box-sizing:border-box }
+.feature-copy { max-width:0;overflow:hidden;opacity:0;transition:max-width .45s,opacity .3s }
+.feature-copy { transition:none }
+.feature:hover .feature-copy, .feature[aria-expanded=true] .feature-copy { max-width:220px;opacity:1 }
+
+/* Inherited */
+button { font:inherit }
+.feature { color:white; text-align:left; cursor:pointer; font-size:clamp(.68rem,.9vw,.88rem); line-height:1.45 }
+.feature { cursor:help; font-size:clamp(.72rem,1vw,.95rem) }
+.hero { color:#fff }
+body { color:var(--ink); font-family:var(--mono); font-size:14px }
+
+/* Resolved values */
+transition: none;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: help;
+display: block;
+font-family: "JetBrains Mono", monospace;
+font-feature-settings: normal;
+font-kerning: auto;
+font-size: 13.24px;
+font-size-adjust: none;
+font-stretch: 100%;
+font-style: normal;
+font-weight: 400;
+height: 95.9375px;
+letter-spacing: normal /*UA*/;
+line-height: 19.198px;
+max-width: 0px;
+opacity: 0;
+overflow-x: hidden;
+overflow-y: hidden;
+text-align: left;
+text-indent: 0px /*UA*/;
+text-transform: none /*UA*/;
+width: 0px;
+word-spacing: 0px /*UA*/;
+
+/* CSS variables */
+--mono: "JetBrains Mono",monospace;
+--ink: #101010;
+```
