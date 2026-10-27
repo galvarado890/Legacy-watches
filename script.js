@@ -32,6 +32,7 @@ document.querySelectorAll(".feature").forEach((feature) => {
 });
 const heroSection = document.querySelector(".hero");
 const heroFeatures = [...heroSection.querySelectorAll(".feature")];
+const heroCta = heroSection.querySelector(".hero-cta");
 const heroScrollSection = document.querySelector(".hero-scroll");
 let revealFrame = 0;
 function updateHeroReveals() {
@@ -44,6 +45,7 @@ function updateHeroReveals() {
   heroFeatures.forEach((feature, index) => {
     feature.classList.toggle("is-revealed", progress >= 0.02 + index * 0.24);
   });
+  heroCta.classList.toggle("is-revealed", progress >= 0.94);
 }
 window.addEventListener("scroll", () => {
   if (!revealFrame) revealFrame = requestAnimationFrame(updateHeroReveals);
