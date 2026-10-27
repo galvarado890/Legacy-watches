@@ -206,3 +206,12 @@
 .hero-shade{background:linear-gradient(90deg,rgba(0,0,0,.45),transparent 70%),linear-gradient(0deg,rgba(0,0,0,.43),transparent 40%)}
 @media(max-width:700px){.hero-shade{background:linear-gradient(180deg,rgba(0,0,0,.41),transparent 30%,transparent 70%,rgba(0,0,0,.45))}}
 
+
+.archive-product-card .archive-next{color:#000}
+
+
+.archive-product-card .archive-next{font-weight:700}
+
+
+.classics .product-card .extra-details{color:#000}
+
