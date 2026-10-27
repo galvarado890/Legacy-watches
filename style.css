@@ -194,3 +194,7 @@
 
 .hero .feature,.hero .feature-copy,.hero .plus{color:#fff}
 
+
+.product-card .product-details .price{font-size:clamp(1.25rem,2.1vw,1.85rem)}
+@media(max-width:700px){.product-card .product-details .price{font-size:.78rem}}
+
