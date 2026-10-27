@@ -221,3 +221,11 @@
 
 .hero .feature-copy{text-shadow:0 3px 10px rgba(0,0,0,.98)}
 
+
+.product-card .product-details .price{font-size:clamp(1.18rem,2vw,1.75rem)}
+@media(max-width:700px){.product-card .product-details .price{font-size:.74rem}}
+
+
+.product-card .product-details .price{font-size:clamp(1.1rem,1.9vw,1.65rem)}
+@media(max-width:700px){.product-card .product-details .price{font-size:.7rem}}
+
